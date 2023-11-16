@@ -1,7 +1,9 @@
+import Topbanner from "./components/Topbanner";
+
 const App = () => {
   return (
     <>
-      <div className="h-[42px] bg-purple-200">Top banner</div>
+      <Topbanner />
       <header className="bg-red-100 h-16">Header</header>
       <div className="bg-blue-100 h-[400px]">Banner</div>
       <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
