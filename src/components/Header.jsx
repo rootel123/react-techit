@@ -1,11 +1,11 @@
-import Ellipsisicon from "./Ellipsisicon";
+import Ellipsisicon from "../icons/Ellipsisicon";
 
 const Header = () => {
   return (
-    <header className="bg-white h-16 border-b sticky top-0">
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center">
+    <header className="bg-white h-16 border-b sticky top-0 z-10">
+      <div className="container flex justify-between items-center">
         <div className="flex items-center">
-          <div className="w-36 h-16 p-6">
+          <div className="w-36 h-16 py-6 pr-6">
             <img
               src="https://techit.education/img/techit_logo.svg"
               alt="techit_logo"
