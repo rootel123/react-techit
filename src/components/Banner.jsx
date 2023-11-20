@@ -71,9 +71,9 @@ const Banner = () => {
           ))}
         </Slider>
       </ul>
-      <div className="px-6 absolute w-[1280px] left-1/2 -translate-x-1/2 bottom-6">
-        <div className="text-white bg-black w-fit bg-opacity-30 flex py-[5px] text-xs rounded-full gap-2 px-3">
-          <div className="w-8">
+      <div className="absolute w-[1280px] px-6 left-1/2 -translate-x-1/2 bottom-6">
+        <div className="text-white bg-black w-fit bg-opacity-30 flex text-xs rounded-full gap-2 py-[5px] px-3">
+          <div>
             {page + 1} / {bannerData.length}
           </div>
           <button onClick={onClickPrev}>
